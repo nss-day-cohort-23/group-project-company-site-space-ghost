@@ -101,9 +101,6 @@ footer {
 
 
 
-
-
-
 /*********************************
             BEGIN JOE'S CSS
 *********************************/
@@ -147,6 +144,21 @@ div.bio {
 
 
 
+
+/*********************************
+        PRODUCTS PAGE STYLES
+*********************************/
+
+main#prodMain {
+    background-image: url("images/prodMainPic.jpg");
+}
+
+div#prodCards div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -1em;
+}
+=======
 div#banner {
     font-size: 100px;
     color: white;
@@ -639,5 +651,6 @@ div.form{
     margin-top: 50px;
     margin-bottom: 70px;
 }
+
 
 
