@@ -1,7 +1,7 @@
 // OBJECTS //
 var board1 = {
     name: "Space Ripper",
-    pic: "somefakeimg.com/img.jpg",
+    pic: "images/board5.jpg",
     description: "Intergalactic speed and control. Moves you through the snow like a spaceship.",
     price: 499.99,
     length: "53in.",
@@ -10,7 +10,7 @@ var board1 = {
 
 var board2 = {
     name: "Ace 9",
-    pic: "somefakeimg.com/img.jpg",    
+    pic: "images/board1.jpg",    
     description: "Moderate skill board for freestyle cruising.",
     price: 299.99,
     length: "50in.",
@@ -19,7 +19,7 @@ var board2 = {
 
 var board3 = {
     name: "Black Ice",
-    pic: "somefakeimg.com/img.jpg",    
+    pic: "images/board2.jpg",    
     description: "Extreme Expert Board for Pros only, brah. Tear. It. Up.",
     price: 299.99,
     length: "50in.",
@@ -28,7 +28,7 @@ var board3 = {
 
 var board4 = {
     name: "Sean White Special",
-    pic: "somefakeimg.com/img.jpg",    
+    pic: "images/board6.jpg",    
     description: "Board for jabronis.",
     price: 149.99,
     length: "49in.",
@@ -37,7 +37,7 @@ var board4 = {
 
 var board5 = {
     name: "Tunneller",
-    pic: "somefakeimg.com/img.jpg",    
+    pic: "images/board4.jpg",    
     description: "If you're trying to get buried knee deep in snow, this is what you need. This thing sinks.",
     price: 199.99,
     length: "40in.",
@@ -45,7 +45,7 @@ var board5 = {
 };
 var board6 = {
     name: "Green Man",
-    pic: "somefakeimg.com/img.jpg",    
+    pic: "images/greenman.jpg",    
     description: "Free yourself. Forget how long you've been standing there. The Green Man board was made to just stand around.",
     price: 179.99,
     length: "51in.",
@@ -54,7 +54,7 @@ var board6 = {
 
 var shirt = {
     name: "Hella Bogus T-shirt",
-    pic: "somefakeimg.com/img.jpg",    
+    pic: "images/gnarshirt.jpg",    
     description: "Shred in style with this super cool tshirt.",
     price: 19.99,
     size: "Medium",
@@ -63,7 +63,7 @@ var shirt = {
 
 var jacket = {
     name: "Cold Weather Jacket",
-    pic: "somefakeimg.com/img.jpg",    
+    pic: "images/jacket1.jpg",    
     description: "Jacket rated for temperatures as low as -25F. Will keep your loins toasty no matter the powder conditions.",
     price: 99.99,
     size: "Large",
@@ -72,7 +72,7 @@ var jacket = {
 
 var beanie = {
     name: "Shweeeeet Beanie",
-    pic: "somefakeimg.com/img.jpg",    
+    pic: "images/beanie.jpg",    
     description: "The perfect dome cover for chill dudes and dudettes.",
     price: 14.99,
     size: "Small",
