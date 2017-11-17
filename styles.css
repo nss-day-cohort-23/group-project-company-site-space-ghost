@@ -196,12 +196,13 @@ main#prodMain {
     background-image: url("images/prodMainPic.jpg");
 }
 
-div#prodCards div{
+div#prodCards {
     display: flex;
     justify-content: space-evenly;
     margin-top: -1em;
+    flex-wrap: wrap;
 }
-=======
+
 div#banner {
     font-size: 100px;
     color: white;
@@ -211,6 +212,30 @@ div#banner {
 }
 
 
+
+
+/*********************************
+        Product Card Styling
+*********************************/
+
+.oneCard {
+    width: 30%;
+    background-color: #eeeeea;
+    margin-bottom: 2.5em;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+    
+}
+
+.arrayprice,
+.arraysize,
+.arraypowpow,
+.arraylength,
+.arraydescription,
+.arrayname  {
+    padding-left: 1em;
+    color: black;
+}
 
 
 

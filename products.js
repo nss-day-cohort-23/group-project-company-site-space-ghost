@@ -82,16 +82,17 @@ var beanie = {
 var prodArray = [board1, board2, board3, board4, board5, board6] 
 var clothArray = [shirt, jacket, beanie];
 var masterBoardHTML = [];
+var masterClothHTML = [];
 
 // Snow Boards For Loop //
 
 for (var i = 0; i < prodArray.length; i++) {
-    var listHTML = "<h3 class='arrayname'>Name: " + prodArray[i].name + "</h4>";
-    listHTML += "<img class='arraypic' src='" + prodArray[i].pic + "'>";
-    listHTML += "<h4 class='arraydescription'>Description: <br> <p>" + prodArray[i].description + "</p>";
+    var listHTML = "<h3 class='arrayname'>" + prodArray[i].name + "</h3><hr>";
+    listHTML += "<img class='arraypic' src='" + prodArray[i].pic + "'><hr>";
+    listHTML += "<h4 class='arraydescription'>" + prodArray[i].description + "</h4>";
     listHTML += "<h4 class='arrayprice'>Price: " + prodArray[i].price + "</h4>";
     listHTML += "<h4 class='arraysize arraylength'>Length: " + prodArray[i].length + "</h4>";
-    listHTML += "<h4 class='powpow'>Pow Pow: " + prodArray[i].powpow + "</h4>";
+    listHTML += "<h4 class='arraypowpow'>Pow Pow: " + prodArray[i].powpow + "</h4>";
     masterBoardHTML.push(listHTML);
 }
 document.getElementById("card1").innerHTML = masterBoardHTML[0];
@@ -104,9 +105,9 @@ document.getElementById("card6").innerHTML = masterBoardHTML[5];
 // CLOTHING FOR LOOP //
 
 for (var i = 0; i < clothArray.length; i++) {
-    var listHTML = "<h3 class='arrayname'>Name: " + clothArray[i].name + "</h4>";
+    var listHTML = "<h3 class='arrayname'>" + clothArray[i].name + "</h4>";
     listHTML += "<img class='arraypic' src='" + clothArray[i].pic + "'>";
-    listHTML += "<h4 class='arraydescription'>Description: <br> <p>" + clothArray[i].description + "</p>";
+    listHTML += "<h4 class='arraydescription'>" + clothArray[i].description + "</h4>";
     listHTML += "<h4 class='arrayprice'>Price: " + clothArray[i].price + "</h4>";
     listHTML += "<h4 class='arraysize'>Length: " + clothArray[i].size + "</h4>";
     listHTML += "<h4 class='arraypowpow'>Pow Pow: " + clothArray[i].powpow + "</h4>";
