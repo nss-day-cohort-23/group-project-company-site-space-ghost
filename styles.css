@@ -21,6 +21,7 @@ header {
     height: 3.2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px 1px black;
+
 }
 nav ul {
     display: flex;
@@ -46,6 +47,7 @@ nav ul li a {
 /*********************************
             Body
 *********************************/
+
 main {
     margin-top: 50px;
     width: 100%;
@@ -56,10 +58,27 @@ main {
 
 }
 
-
 footer {
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -110,12 +129,17 @@ footer {
     justify-content: space-evenly;
     margin-top: -1em;
 }
+
 .card {
     width: 30%;
     border: 1px solid cornflowerblue;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #888888;
     background-color: snow;
+}
+
+div h3, h2 {
+    text-align: center;
 }
 
 div h3,
@@ -125,10 +149,23 @@ h2 {
 }
 
 section.s3,
+
 section.s2 {
     margin-left: .5em;
     margin-right: .5em;
 }
+
+section.s1 img {
+    width: 90%;
+    /* margin: 0 auto; */ 
+    padding-left: 1em; /* for some reason, margin: 0 auto isnt centering theimages. So i applied a padding, which I know doesnt scale well, but it works for now. */
+}
+
+
+
+
+
+
 section.s1 img {
     display: block;
     width: 90%;
@@ -141,7 +178,13 @@ div.bio {
     text-align: justify;
 }
 
-
+div#banner {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 2em;
+  text-shadow: 2px 2px 2px cornflowerblue;
+}
 
 
 
@@ -337,76 +380,91 @@ h2, p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*****
 End Kyles Css
 /******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Kim's CSS **/
+
+#CASI {
+    margin-top: 50px;
+    width: 100%;
+    height: 900px;
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0), snow 95%), url("https://www.nothinbutsnow.com/wp-content/uploads/2015/10/CASI-Snowboard-Coach-Freestyle-SM-2000x1000.jpg");  */
+    background-image: url("images/CASI-Snowboard-Coach-Freestyle-SM-2000x1000.jpg");
+    background-repeat: no-repeat;
+}
+
+#mission {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
