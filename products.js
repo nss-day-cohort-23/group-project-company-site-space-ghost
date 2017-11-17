@@ -1,3 +1,4 @@
+// OBJECTS //
 var board1 = {
     name: "Space Ripper",
     pic: "somefakeimg.com/img.jpg",
@@ -78,14 +79,40 @@ var beanie = {
     powpow: "3/5"
 };
 
+var prodArray = [board1, board2, board3, board4, board5, board6] 
+var clothArray = [shirt, jacket, beanie];
+var masterBoardHTML = [];
 
-
-var prodArray = [board1, board2, board3, shirt, jacket, beanie];
+// Snow Boards For Loop //
 
 for (var i = 0; i < prodArray.length; i++) {
-    for(var prop in prodArray[i]) {
-        prodArray[0].prop
-    }
+    var listHTML = "<h3 class='arrayname'>Name: " + prodArray[i].name + "</h4>";
+    listHTML += "<img class='arraypic' src='" + prodArray[i].pic + "'>";
+    listHTML += "<h4 class='arraydescription'>Description: <br> <p>" + prodArray[i].description + "</p>";
+    listHTML += "<h4 class='arrayprice'>Price: " + prodArray[i].price + "</h4>";
+    listHTML += "<h4 class='arraysize arraylength'>Length: " + prodArray[i].length + "</h4>";
+    listHTML += "<h4 class='powpow'>Pow Pow: " + prodArray[i].powpow + "</h4>";
+    masterBoardHTML.push(listHTML);
+}
+document.getElementById("card1").innerHTML = masterBoardHTML[0];
+document.getElementById("card2").innerHTML = masterBoardHTML[1];
+document.getElementById("card3").innerHTML = masterBoardHTML[2];
+document.getElementById("card4").innerHTML = masterBoardHTML[3];
+document.getElementById("card5").innerHTML = masterBoardHTML[4];
+document.getElementById("card6").innerHTML = masterBoardHTML[5];
+
+// CLOTHING FOR LOOP //
+
+for (var i = 0; i < clothArray.length; i++) {
+    var listHTML = "<h3 class='arrayname'>Name: " + clothArray[i].name + "</h4>";
+    listHTML += "<img class='arraypic' src='" + clothArray[i].pic + "'>";
+    listHTML += "<h4 class='arraydescription'>Description: <br> <p>" + clothArray[i].description + "</p>";
+    listHTML += "<h4 class='arrayprice'>Price: " + clothArray[i].price + "</h4>";
+    listHTML += "<h4 class='arraysize'>Length: " + clothArray[i].size + "</h4>";
+    listHTML += "<h4 class='arraypowpow'>Pow Pow: " + clothArray[i].powpow + "</h4>";
+    masterClothHTML.push(listHTML);
 }
 
-prodArray[0].size
+document.getElementById("card7").innerHTML = masterClothHTML[0];
+document.getElementById("card8").innerHTML = masterClothHTML[1];
+document.getElementById("card9").innerHTML = masterClothHTML[2];
