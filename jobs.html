@@ -5,49 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Job Opportunities</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
     <header>
-        <img src="images/logo.png">
-        <h1>Space Ghost</h1>
+        
+    <nav>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">Employees</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="">Job Opportunities</a></li>
-        </ul>
-    </header>
-    <main>
-        <div id="page-img">
-        <h2>Job Opportunites</h2>
-        </div>
+            <li>
+            <div id="logo">
+                    <a href="home.html">
+                    <img id="logoimg" src="images/High_Mountain_32x32.svg.png" >
+                    </a>
 
-        <article>
-            <h3>Commitment</h3>
-            <p>Do you have a commitment to shreddin' the slopes? We're looking for enthusiastic people to hop on the board with us and help give fellow shredders the gear they need start rippin!</p>
-        </article>
-        <article>
-            <h3>Quality</h3>
-            <p>It's not just the quality of the Gnar Gnar boards we like to push, it's the quality of the staff. That's the real secret to the Ghost Board brand</p>
-        </article>
-        <article>
-            <h3>Equality</h3>
-            <p>Just like the feeling of freedom that comes with hitting the slopes, we want our employees to feel comfortable being who they are. Indiviuality is woven into the fabric of our company.</p>
-        </article>
+            </div>
+                </li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="employees.html">Employees</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="jobs.html">Jobs</a></li> 
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <main>
+        <div id="banner">
+            Job Opportunities
+        </div>
     </main>
+    
+        <div id="allCards">
+        <article class="card">
+            <h3>Commitment</h3>
+            <hr>
+            <section>
+                    <img class="jobs-images" src="images/High_Mountain_32x32.svg.png" width= 70px height=70px>
+                </section>
+                <hr>
+            <p class="job-qualities">Do you have a commitment to shreddin' the slopes? We're looking for enthusiastic people to hop on the board with us and help give fellow shredders the gear they need start rippin!<p>
+        </article>
+        <article class="card">
+            <h3>Quality</h3>
+            <hr>
+            <section class="img-qualities-bckgrnd">
+                    <img class="jobs-images" src="images/High_Mountain_32x32.svg.png" width= 70px height=70px>
+            </section>
+            <hr>
+            <p class="job-qualities">It's not just the quality of the Gnar Gnar boards we like to push, it's the quality of the staff. That's the real secret to the Ghost Board brand</p>
+        </article>
+        <article class="card">
+            <h3>Equality</h3>
+            <hr>
+            <section>
+                    <img class="jobs-images" src="images/High_Mountain_32x32.svg.png" width= 70px height=70px>
+            </section>   
+            <hr>         
+            <p class="job-qualities">Just like the feeling of freedom that comes with hitting the slopes, we want our employees to feel comfortable being who they are. Indiviuality is woven into the fabric of our company.</p>
+        </article>
+        </div>
+    
+    <div class="form">
     <form onSubmit="return verifyForm();">
-        <h3>First Name:</h3>
-        <input type="text" id="firstname" name="firstname" size="25" maxlength="40" placeholder="Please enter full name">
-        <h3>Last Name:</h3>
-        <input type="text" id="lastname" name="lastname" size="25" maxlength="40" placeholder="Please enter full name">
-        <h3>Email:</h3>        
-        <input id="verifyemail" type="text" id="email" name="email" size="25" maxlength="40" placeholder="Please enter email address">
-        <h4>Tell us about yourself!</h4>
-        <textarea name="message" id="message" rows="5" cols="30"></textarea>
-        <input type="submit" value="Submit Message">
+        <div>
+            <h2>First Name:</h2>
+            <input type="text" id="firstname" name="firstname" size="25" maxlength="40" placeholder="Please enter first name">
+        </div>
+        <div>
+            <h2>Last Name:</h2>
+            <input type="text" id="lastname" name="lastname" size="25" maxlength="40" placeholder="Please enter last name">
+        </div>
+        <div>
+            <h2>Email:</h2>        
+            <input id="verifyemail" type="text" id="email" name="email" size="25" maxlength="40" placeholder="Please enter email address">
+        </div>
+        <div>
+            <h3>Tell us about yourself!</h3>
+            <textarea name="message" id="message" rows="10" cols="60"></textarea>
+            <input class="submit-button" type="submit" value="Submit Message">
+        </div>
     </form>
+    </div>
+
+    
     <footer>
             <hr>
             <p><a href="#">Top</a></p>
