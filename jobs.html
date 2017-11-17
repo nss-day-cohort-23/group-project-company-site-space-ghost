@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Job Opportunities</title>
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png">
+        <h1>Space Ghost</h1>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Employees</a></li>
+            <li><a href="">History</a></li>
+            <li><a href="">Job Opportunities</a></li>
+        </ul>
+    </header>
+    <main>
+        <div id="page-img">
+        <h2>Job Opportunites</h2>
+        </div>
+
+        <article>
+            <h3>Commitment</h3>
+            <p>Do you have a commitment to shreddin' the slopes? We're looking for enthusiastic people to hop on the board with us and help give fellow shredders the gear they need start rippin!</p>
+        </article>
+        <article>
+            <h3>Quality</h3>
+            <p>It's not just the quality of the Gnar Gnar boards we like to push, it's the quality of the staff. That's the real secret to the Ghost Board brand</p>
+        </article>
+        <article>
+            <h3>Equality</h3>
+            <p>Just like the feeling of freedom that comes with hitting the slopes, we want our employees to feel comfortable being who they are. Indiviuality is woven into the fabric of our company.</p>
+        </article>
+    </main>
+    <form onSubmit="return verifyForm();">
+        <h3>First Name:</h3>
+        <input type="text" id="firstname" name="firstname" size="25" maxlength="40" placeholder="Please enter full name">
+        <h3>Last Name:</h3>
+        <input type="text" id="lastname" name="lastname" size="25" maxlength="40" placeholder="Please enter full name">
+        <h3>Email:</h3>        
+        <input id="verifyemail" type="text" id="email" name="email" size="25" maxlength="40" placeholder="Please enter email address">
+        <h4>Tell us about yourself!</h4>
+        <textarea name="message" id="message" rows="5" cols="30"></textarea>
+        <input type="submit" value="Submit Message">
+    </form>
+    <footer>
+            <hr>
+            <p><a href="#">Top</a></p>
+            <p>&copy; Ghost Boards LLC 2017</p>
+    </footer>
+<script type="text/javascript" src="jobs-script.js"></script>    
+</body>
+</html>
