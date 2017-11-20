@@ -207,7 +207,7 @@ div#prodCards {
     display: flex;
     justify-content: space-evenly;
     margin-top: -1em;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     margin bottom: 2em;
 }
 
