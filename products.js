@@ -54,7 +54,7 @@ var board6 = {
 
 var shirt = {
     name: "Hella Bogus T-shirt",
-    pic: "images/gnarshirt.jpg",    
+    pic: "images/supergnar.jpg",    
     description: "Shred in style with this super cool tshirt.",
     price: 19.99,
     size: "Medium",
@@ -91,8 +91,8 @@ for (var i = 0; i < prodArray.length; i++) {
     listHTML += "<img class='arraypic' src='" + prodArray[i].pic + "'><hr>";
     listHTML += "<h4 class='arraydescription'>" + prodArray[i].description + "</h4>";
     listHTML += "<h4 class='arrayprice'>Price: " + prodArray[i].price + "</h4>";
-    listHTML += "<h4 class='arraysize arraylength'>Length: " + prodArray[i].length + "</h4>";
-    listHTML += "<h4 class='arraypowpow'>Pow Pow: " + prodArray[i].powpow + "</h4>";
+    listHTML += "<h4 class='arraylength'>Length: " + prodArray[i].length + "</h4>";
+    listHTML += "<h4 class='arraypowpow'>Pow Pow Rating: " + prodArray[i].powpow + "</h4>";
     masterBoardHTML.push(listHTML);
 }
 document.getElementById("card1").innerHTML = masterBoardHTML[0];
@@ -109,8 +109,8 @@ for (var i = 0; i < clothArray.length; i++) {
     listHTML += "<img class='arraypic' src='" + clothArray[i].pic + "'>";
     listHTML += "<h4 class='arraydescription'>" + clothArray[i].description + "</h4>";
     listHTML += "<h4 class='arrayprice'>Price: " + clothArray[i].price + "</h4>";
-    listHTML += "<h4 class='arraysize'>Length: " + clothArray[i].size + "</h4>";
-    listHTML += "<h4 class='arraypowpow'>Pow Pow: " + clothArray[i].powpow + "</h4>";
+    listHTML += "<h4 class='arraysize'>Size: " + clothArray[i].size + "</h4>";
+    listHTML += "<h4 class='arraypowpow'>Pow Pow Rating: " + clothArray[i].powpow + "</h4>";
     masterClothHTML.push(listHTML);
 }
 

@@ -43,6 +43,7 @@ nav ul li a {
     width: 80px;
     height: 80px;
     margin-top: -20px;
+    z-index: 1;
 }
 /*********************************
             Body
@@ -62,7 +63,15 @@ footer {
     text-align: center;
 }
 
+footer img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: -1em;
+}
 
+footer a {
+    text-decoration: none;
+}
 
 
 
@@ -208,7 +217,7 @@ div#prodCards {
     justify-content: space-evenly;
     margin-top: -1em;
     flex-wrap: wrap;
-    margin bottom: 2em;
+    margin-bottom: 2em;
 }
 
 div#banner {
@@ -245,7 +254,13 @@ div#banner {
     color: black;
 }
 
-
+div.oneCard img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    box-shadow: 4px 3px 3px #888888;
+    border-radius: 3px;
+}
 
 
 
@@ -362,10 +377,9 @@ Body
 .text {
     font-size: 100px;
     color:snow;
-    mix-blend-mode: multiply;
-    text-align: center;
+    /* mix-blend-mode: multiply; */
     padding-top: 2em;
-    padding-right: 8em;
+    padding-left: 1em;
     text-shadow: 10px 10px 10px cornflowerblue;
 }
 
